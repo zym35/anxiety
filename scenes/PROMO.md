@@ -14,7 +14,7 @@
 
 `clearText()`
 
-n3: 在我们开始之前, how would *you* like to read?
+n3: 在我们开始之前, 你的阅读习惯是...?
 
 `publish("show_options_bottom")`
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: 这是这个人类的焦虑
+n: 这是他的焦虑
 
-n: 你，就是这个人类的焦虑
+n: 你，就是他的焦虑
 
 (#act1_normal)
 
@@ -73,7 +73,7 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: 你的职责就是保护这个人类不受伤害！
+n: 你的职责就是保护他不受伤害！
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
@@ -94,11 +94,11 @@ n: QUICK, WARN THEM ABOUT A *DANGER!* 快！快告诉她危险！
 bb({eyes:"look"});
 ```
 
-[Oh no, look at that horrible news story!天哪，这个故事太可怕了！](#act1d_news)
+[天哪，这个故事太可怕了！](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?* 嗯？那条推特实在偷偷讨论我吗？](#act1d_subtweet)
+[ 嗯？那条推特实在偷偷讨论我吗？](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk 嘿，一个喵星人喝牛奶的GIF！](#act1d_milk)
+[嘿，一个喵星人喝牛奶的GIF！](#act1d_milk)
 
 # act1d_milk
 
@@ -112,7 +112,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE猫是不能消化牛奶的！我们是虐待动物的人！！
+b: 猫是不能消化牛奶的！我们是虐待动物的人！！
 
 (...200)
 
