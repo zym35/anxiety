@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: 这是他的焦虑
+n: 这是他的焦虑。
 
-n: 你，就是他的焦虑
+n: 你，就是他的焦虑。
 
 (#act1_normal)
 
@@ -66,7 +66,7 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: Nope. No, nope, not listening. Gonna check my phone.没有。嗯，没在听。去看看我的手机。
 
 ```
 sfx("rustle2");
