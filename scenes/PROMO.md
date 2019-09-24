@@ -73,7 +73,7 @@ sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: 你的职责就是保护他不受伤害！
+n: 你的职责就是然他远离*危险*！
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
