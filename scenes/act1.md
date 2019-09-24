@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: 这是他的焦虑。
 
-n: _YOU_ ARE THE ANXIETY
+n: 你，就是他的焦虑。
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: Oh hey! We're back here again?嘿！我们又回来了？
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: 你的职责就是然他远离*危险*！
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW实际上，重玩这个游戏就是在让他们处于*危险*之中！
 
-n: QUICK, WARN THEM!
+n: QUICK, WARN THEM!快！快警告他！
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: Human! Listen, we're in danger! The player人类！听着，我们有危险了！这个玩家...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...会折磨我们第二次!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...won't find an alternate ending是不会找到不同结局的!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...will get ludonarrative dissonance会在游戏机制和故事之间左右两难!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
